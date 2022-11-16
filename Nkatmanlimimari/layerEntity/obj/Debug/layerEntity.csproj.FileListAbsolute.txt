@@ -1,0 +1,6 @@
+C:\Users\PC\source\repos\Nkatmanlimimari\layerEntity\bin\Debug\layerEntity.dll
+C:\Users\PC\source\repos\Nkatmanlimimari\layerEntity\bin\Debug\layerEntity.pdb
+C:\Users\PC\source\repos\Nkatmanlimimari\layerEntity\obj\Debug\layerEntity.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Nkatmanlimimari\layerEntity\obj\Debug\layerEntity.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Nkatmanlimimari\layerEntity\obj\Debug\layerEntity.dll
+C:\Users\PC\source\repos\Nkatmanlimimari\layerEntity\obj\Debug\layerEntity.pdb

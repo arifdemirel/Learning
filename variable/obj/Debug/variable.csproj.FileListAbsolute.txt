@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\variable\bin\Debug\variable.exe.config
+C:\Users\PC\source\repos\variable\bin\Debug\variable.exe
+C:\Users\PC\source\repos\variable\bin\Debug\variable.pdb
+C:\Users\PC\source\repos\variable\obj\Debug\variable.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\variable\obj\Debug\variable.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\variable\obj\Debug\variable.Form1.resources
+C:\Users\PC\source\repos\variable\obj\Debug\variable.Properties.Resources.resources
+C:\Users\PC\source\repos\variable\obj\Debug\variable.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\variable\obj\Debug\variable.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\variable\obj\Debug\variable.exe
+C:\Users\PC\source\repos\variable\obj\Debug\variable.pdb

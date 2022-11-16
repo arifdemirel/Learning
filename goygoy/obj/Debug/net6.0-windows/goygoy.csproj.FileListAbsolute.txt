@@ -1,0 +1,7 @@
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.Form1.resources
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.AssemblyInfo.cs
+C:\Users\PC\source\repos\goygoy\obj\Debug\net6.0-windows\goygoy.csproj.CoreCompileInputs.cache

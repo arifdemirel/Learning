@@ -1,0 +1,17 @@
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu_arac_kullanimlari.Form1.resources
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.AssemblyInfo.cs
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\bin\Debug\net6.0-windows\alkollu-arac-kullanimlari.exe
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\bin\Debug\net6.0-windows\alkollu-arac-kullanimlari.deps.json
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\bin\Debug\net6.0-windows\alkollu-arac-kullanimlari.runtimeconfig.json
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\bin\Debug\net6.0-windows\alkollu-arac-kullanimlari.dll
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\bin\Debug\net6.0-windows\alkollu-arac-kullanimlari.pdb
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.dll
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\refint\alkollu-arac-kullanimlari.dll
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.pdb
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\alkollu-arac-kullanimlari.genruntimeconfig.cache
+C:\Users\PC\source\repos\alkollu-arac-kullanimlari\obj\Debug\net6.0-windows\ref\alkollu-arac-kullanimlari.dll

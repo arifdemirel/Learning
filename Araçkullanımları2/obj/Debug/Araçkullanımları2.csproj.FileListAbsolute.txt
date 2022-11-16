@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\Araçkullanımları2\bin\Debug\Araçkullanımları2.exe.config
+C:\Users\PC\source\repos\Araçkullanımları2\bin\Debug\Araçkullanımları2.exe
+C:\Users\PC\source\repos\Araçkullanımları2\bin\Debug\Araçkullanımları2.pdb
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.Form1.resources
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.Properties.Resources.resources
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.exe
+C:\Users\PC\source\repos\Araçkullanımları2\obj\Debug\Araçkullanımları2.pdb

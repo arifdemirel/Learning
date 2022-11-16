@@ -1,0 +1,17 @@
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\Entity(CodeFirst).exe.config
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\Entity(CodeFirst).exe
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\Entity(CodeFirst).pdb
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\EntityFramework.dll
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\EntityFramework.xml
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity_CodeFirst_.Form1.resources
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity_CodeFirst_.Properties.Resources.resources
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).csproj.CopyComplete
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).exe
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity(CodeFirst).pdb
+C:\Users\PC\source\repos\Entity(CodeFirst)\Entity(CodeFirst)\obj\Debug\Entity_CodeFirst_.Migrations.InitialCreate.resources

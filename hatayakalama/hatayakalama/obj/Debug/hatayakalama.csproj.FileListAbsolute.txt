@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.Form1.resources
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.Properties.Resources.resources
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\bin\Debug\hatayakalama.exe.config
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\bin\Debug\hatayakalama.exe
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\bin\Debug\hatayakalama.pdb
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.exe
+C:\Users\PC\source\repos\hatayakalama\hatayakalama\obj\Debug\hatayakalama.pdb

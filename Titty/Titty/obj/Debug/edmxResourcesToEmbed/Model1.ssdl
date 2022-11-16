@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBENTITYURUNModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DBENTITYURUN.dbo.tbl_admin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USERNAME" Type="varchar" MaxLength="20" />
+    <Property Name="PASSWORD" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_kategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategori" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_musteri">
+    <Key>
+      <PropertyRef Name="MUSTERIID" />
+    </Key>
+    <Property Name="MUSTERIID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MUSTERIAD" Type="varchar" MaxLength="30" />
+    <Property Name="MUSTERISOYAD" Type="varchar" MaxLength="30" />
+    <Property Name="MUSTERISEHIR" Type="varchar" MaxLength="15" />
+    <Property Name="DURUM" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_satis">
+    <Key>
+      <PropertyRef Name="SATISID" />
+    </Key>
+    <Property Name="SATISID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUN" Type="int" />
+    <Property Name="MUSTERI" Type="int" />
+    <Property Name="FIYAT" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TARIH" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="tbl_urun">
+    <Key>
+      <PropertyRef Name="URUN_ID" />
+    </Key>
+    <Property Name="URUN_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUN_AD" Type="varchar" MaxLength="50" />
+    <Property Name="MARKA" Type="varchar" MaxLength="50" />
+    <Property Name="STOK" Type="smallint" />
+    <Property Name="FIYAT" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="DURUM" Type="bit" />
+    <Property Name="KATEGORI" Type="int" />
+  </EntityType>
+  <Association Name="FK_tbl_satis_tbl_musteri">
+    <End Role="tbl_musteri" Type="Self.tbl_musteri" Multiplicity="0..1" />
+    <End Role="tbl_satis" Type="Self.tbl_satis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_musteri">
+        <PropertyRef Name="MUSTERIID" />
+      </Principal>
+      <Dependent Role="tbl_satis">
+        <PropertyRef Name="MUSTERI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_satis_tbl_urun">
+    <End Role="tbl_urun" Type="Self.tbl_urun" Multiplicity="0..1" />
+    <End Role="tbl_satis" Type="Self.tbl_satis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_urun">
+        <PropertyRef Name="URUN_ID" />
+      </Principal>
+      <Dependent Role="tbl_satis">
+        <PropertyRef Name="URUN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_urun_tbl_kategori">
+    <End Role="tbl_kategori" Type="Self.tbl_kategori" Multiplicity="0..1" />
+    <End Role="tbl_urun" Type="Self.tbl_urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_kategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tbl_urun">
+        <PropertyRef Name="KATEGORI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="MARKAGETIR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="DBENTITYURUNModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_kategori" EntityType="Self.tbl_kategori" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_musteri" EntityType="Self.tbl_musteri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_satis" EntityType="Self.tbl_satis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_urun" EntityType="Self.tbl_urun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_admin" EntityType="Self.tbl_admin" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_admin].[ID] AS [ID], 
+    [tbl_admin].[USERNAME] AS [USERNAME], 
+    [tbl_admin].[PASSWORD] AS [PASSWORD]
+    FROM [dbo].[tbl_admin] AS [tbl_admin]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_tbl_satis_tbl_musteri" Association="Self.FK_tbl_satis_tbl_musteri">
+      <End Role="tbl_musteri" EntitySet="tbl_musteri" />
+      <End Role="tbl_satis" EntitySet="tbl_satis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_satis_tbl_urun" Association="Self.FK_tbl_satis_tbl_urun">
+      <End Role="tbl_urun" EntitySet="tbl_urun" />
+      <End Role="tbl_satis" EntitySet="tbl_satis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_urun_tbl_kategori" Association="Self.FK_tbl_urun_tbl_kategori">
+      <End Role="tbl_kategori" EntitySet="tbl_kategori" />
+      <End Role="tbl_urun" EntitySet="tbl_urun" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\bin\Debug\Bonus Proje.exe.config
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\bin\Debug\Bonus Proje.exe
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\bin\Debug\Bonus Proje.pdb
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus Proje.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus Proje.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus_Proje.Form1.resources
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus_Proje.Properties.Resources.resources
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus Proje.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus Proje.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus Proje.exe
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus Proje.pdb
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus_Proje.ogrencinotlar.resources
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus_Proje.ogretmen.resources
+C:\Users\PC\source\repos\Bonus Proje\Bonus Proje\obj\Debug\Bonus_Proje.kulup.resources

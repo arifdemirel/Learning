@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\bin\Debug\Int değişkenler Pratik Örnek.exe.config
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\bin\Debug\Int değişkenler Pratik Örnek.exe
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\bin\Debug\Int değişkenler Pratik Örnek.pdb
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int değişkenler Pratik Örnek.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int değişkenler Pratik Örnek.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int_değişkenler_Pratik_Örnek.Form1.resources
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int_değişkenler_Pratik_Örnek.Properties.Resources.resources
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int değişkenler Pratik Örnek.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int değişkenler Pratik Örnek.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int değişkenler Pratik Örnek.exe
+C:\Users\PC\source\repos\Int değişkenler Pratik Örnek\obj\Debug\Int değişkenler Pratik Örnek.pdb

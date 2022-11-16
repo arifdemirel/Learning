@@ -1,0 +1,17 @@
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\bin\Debug\openfile-savefile-folderbrowser.exe.config
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\bin\Debug\openfile-savefile-folderbrowser.exe
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\bin\Debug\openfile-savefile-folderbrowser.pdb
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile_savefile_folderbrowser.Form1.resources
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile_savefile_folderbrowser.Properties.Resources.resources
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.exe
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.pdb
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile-savefile-folderbrowser.csproj.ResolveComReference.cache
+C:\Users\PC\source\repos\openfile-savefile-folderbrowser\openfile-savefile-folderbrowser\obj\Debug\openfile_savefile_folderbrowser.pdfokutma.resources

@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\int değişkenler\bin\Debug\int değişkenler.exe.config
+C:\Users\PC\source\repos\int değişkenler\bin\Debug\int değişkenler.exe
+C:\Users\PC\source\repos\int değişkenler\bin\Debug\int değişkenler.pdb
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int değişkenler.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int değişkenler.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int_değişkenler.Form1.resources
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int_değişkenler.Properties.Resources.resources
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int değişkenler.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int değişkenler.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int değişkenler.exe
+C:\Users\PC\source\repos\int değişkenler\obj\Debug\int değişkenler.pdb

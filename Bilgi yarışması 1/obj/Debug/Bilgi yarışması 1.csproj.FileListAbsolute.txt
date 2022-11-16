@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\Bilgi yarışması 1\bin\Debug\Bilgi yarışması 1.exe.config
+C:\Users\PC\source\repos\Bilgi yarışması 1\bin\Debug\Bilgi yarışması 1.exe
+C:\Users\PC\source\repos\Bilgi yarışması 1\bin\Debug\Bilgi yarışması 1.pdb
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi yarışması 1.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi yarışması 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi_yarışması_1.Form1.resources
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi_yarışması_1.Properties.Resources.resources
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi yarışması 1.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi yarışması 1.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi yarışması 1.exe
+C:\Users\PC\source\repos\Bilgi yarışması 1\obj\Debug\Bilgi yarışması 1.pdb

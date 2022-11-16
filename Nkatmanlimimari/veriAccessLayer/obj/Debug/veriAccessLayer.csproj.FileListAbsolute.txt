@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\bin\Debug\veriAccessLayer.dll.config
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\bin\Debug\veriAccessLayer.dll
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\bin\Debug\veriAccessLayer.pdb
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\bin\Debug\layerEntity.dll
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\bin\Debug\layerEntity.pdb
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\obj\Debug\veriAccessLayer.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\obj\Debug\veriAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\obj\Debug\veriAccessLayer.csproj.CopyComplete
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\obj\Debug\veriAccessLayer.dll
+C:\Users\PC\source\repos\Nkatmanlimimari\veriAccessLayer\obj\Debug\veriAccessLayer.pdb

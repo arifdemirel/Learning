@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler(Karar Yapıları).csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler(Karar Yapıları).csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler_Karar_Yapıları_.Form1.resources
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler_Karar_Yapıları_.Properties.Resources.resources
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler(Karar Yapıları).csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler(Karar Yapıları).csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\bin\Debug\Operatörler(Karar Yapıları).exe.config
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\bin\Debug\Operatörler(Karar Yapıları).exe
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\bin\Debug\Operatörler(Karar Yapıları).pdb
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler(Karar Yapıları).exe
+C:\Users\PC\source\repos\Operatörler(Karar Yapıları)\obj\Debug\Operatörler(Karar Yapıları).pdb

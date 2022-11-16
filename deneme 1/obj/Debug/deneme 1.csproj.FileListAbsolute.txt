@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\deneme 1\bin\Debug\deneme 1.dll
+C:\Users\PC\source\repos\deneme 1\bin\Debug\deneme 1.pdb
+C:\Users\PC\source\repos\deneme 1\obj\Debug\deneme 1.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\deneme 1\obj\Debug\deneme 1.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\deneme 1\obj\Debug\deneme 1.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\deneme 1\obj\Debug\deneme 1.dll
+C:\Users\PC\source\repos\deneme 1\obj\Debug\deneme 1.pdb
+C:\Users\PC\source\repos\deneme 1\obj\Debug\deneme_1.AraçKullanımları.resources

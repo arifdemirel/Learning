@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBENTITYURUNModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbl_kategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbl_urun" Relationship="Self.FK_tbl_urun_tbl_kategori" FromRole="tbl_kategori" ToRole="tbl_urun" />
+  </EntityType>
+  <EntityType Name="tbl_musteri">
+    <Key>
+      <PropertyRef Name="MUSTERIID" />
+    </Key>
+    <Property Name="MUSTERIID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MUSTERIAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MUSTERISOYAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MUSTERISEHIR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="DURUM" Type="Boolean" />
+    <NavigationProperty Name="tbl_satis" Relationship="Self.FK_tbl_satis_tbl_musteri" FromRole="tbl_musteri" ToRole="tbl_satis" />
+  </EntityType>
+  <EntityType Name="tbl_satis">
+    <Key>
+      <PropertyRef Name="SATISID" />
+    </Key>
+    <Property Name="SATISID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUN" Type="Int32" />
+    <Property Name="MUSTERI" Type="Int32" />
+    <Property Name="FIYAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TARIH" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="tbl_musteri" Relationship="Self.FK_tbl_satis_tbl_musteri" FromRole="tbl_satis" ToRole="tbl_musteri" />
+    <NavigationProperty Name="tbl_urun" Relationship="Self.FK_tbl_satis_tbl_urun" FromRole="tbl_satis" ToRole="tbl_urun" />
+  </EntityType>
+  <EntityType Name="tbl_urun">
+    <Key>
+      <PropertyRef Name="URUN_ID" />
+    </Key>
+    <Property Name="URUN_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUN_AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MARKA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="STOK" Type="Int16" />
+    <Property Name="FIYAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DURUM" Type="Boolean" />
+    <Property Name="KATEGORI" Type="Int32" />
+    <NavigationProperty Name="tbl_kategori" Relationship="Self.FK_tbl_urun_tbl_kategori" FromRole="tbl_urun" ToRole="tbl_kategori" />
+    <NavigationProperty Name="tbl_satis" Relationship="Self.FK_tbl_satis_tbl_urun" FromRole="tbl_urun" ToRole="tbl_satis" />
+  </EntityType>
+  <Association Name="FK_tbl_urun_tbl_kategori">
+    <End Role="tbl_kategori" Type="Self.tbl_kategori" Multiplicity="0..1" />
+    <End Role="tbl_urun" Type="Self.tbl_urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_kategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tbl_urun">
+        <PropertyRef Name="KATEGORI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_satis_tbl_musteri">
+    <End Role="tbl_musteri" Type="Self.tbl_musteri" Multiplicity="0..1" />
+    <End Role="tbl_satis" Type="Self.tbl_satis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_musteri">
+        <PropertyRef Name="MUSTERIID" />
+      </Principal>
+      <Dependent Role="tbl_satis">
+        <PropertyRef Name="MUSTERI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_satis_tbl_urun">
+    <End Role="tbl_urun" Type="Self.tbl_urun" Multiplicity="0..1" />
+    <End Role="tbl_satis" Type="Self.tbl_satis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_urun">
+        <PropertyRef Name="URUN_ID" />
+      </Principal>
+      <Dependent Role="tbl_satis">
+        <PropertyRef Name="URUN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBENTITYURUNEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="tbl_kategori" EntityType="Self.tbl_kategori" />
+    <EntitySet Name="tbl_musteri" EntityType="Self.tbl_musteri" />
+    <EntitySet Name="tbl_satis" EntityType="Self.tbl_satis" />
+    <EntitySet Name="tbl_urun" EntityType="Self.tbl_urun" />
+    <AssociationSet Name="FK_tbl_urun_tbl_kategori" Association="Self.FK_tbl_urun_tbl_kategori">
+      <End Role="tbl_kategori" EntitySet="tbl_kategori" />
+      <End Role="tbl_urun" EntitySet="tbl_urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_satis_tbl_musteri" Association="Self.FK_tbl_satis_tbl_musteri">
+      <End Role="tbl_musteri" EntitySet="tbl_musteri" />
+      <End Role="tbl_satis" EntitySet="tbl_satis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_satis_tbl_urun" Association="Self.FK_tbl_satis_tbl_urun">
+      <End Role="tbl_urun" EntitySet="tbl_urun" />
+      <End Role="tbl_satis" EntitySet="tbl_satis" />
+    </AssociationSet>
+    <FunctionImport Name="MARKAGETIR" ReturnType="Collection(String)" />
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(DBENTITYURUNModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(DBENTITYURUNModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="tbl_admin" EntityType="DBENTITYURUNModel.tbl_admin" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="tbl_admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USERNAME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

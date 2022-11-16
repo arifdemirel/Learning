@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DbSinavOgrenciModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tbl_dersler">
+          <Key>
+            <PropertyRef Name="DERSID" />
+          </Key>
+          <Property Name="DERSID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DERSAD" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tbl_kulupler">
+          <Key>
+            <PropertyRef Name="KULUPID" />
+          </Key>
+          <Property Name="KULUPID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KULUPAD" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tbl_notlar">
+          <Key>
+            <PropertyRef Name="NOTID" />
+          </Key>
+          <Property Name="NOTID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OGR" Type="int" />
+          <Property Name="DERS" Type="int" />
+          <Property Name="SINAV1" Type="smallint" />
+          <Property Name="SINAV2" Type="smallint" />
+          <Property Name="SINAV3" Type="smallint" />
+          <Property Name="ORTALAMA" Type="decimal" Precision="5" Scale="2" />
+          <Property Name="DURUM" Type="bit" />
+        </EntityType>
+        <EntityType Name="tbl_ogrenciler">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AD" Type="varchar" MaxLength="20" />
+          <Property Name="SOYAD" Type="varchar" MaxLength="20" />
+          <Property Name="FOTOGRAF" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="FK_tbl_notlar_tbl_dersler">
+          <End Role="tbl_dersler" Type="Self.tbl_dersler" Multiplicity="0..1" />
+          <End Role="tbl_notlar" Type="Self.tbl_notlar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_dersler">
+              <PropertyRef Name="DERSID" />
+            </Principal>
+            <Dependent Role="tbl_notlar">
+              <PropertyRef Name="DERS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbl_notlar_tbl_ogrenciler">
+          <End Role="tbl_ogrenciler" Type="Self.tbl_ogrenciler" Multiplicity="0..1" />
+          <End Role="tbl_notlar" Type="Self.tbl_notlar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_ogrenciler">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tbl_notlar">
+              <PropertyRef Name="OGR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="NOTLISTESI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="DbSinavOgrenciModelStoreContainer">
+          <EntitySet Name="tbl_dersler" EntityType="Self.tbl_dersler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_kulupler" EntityType="Self.tbl_kulupler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_notlar" EntityType="Self.tbl_notlar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ogrenciler" EntityType="Self.tbl_ogrenciler" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_tbl_notlar_tbl_dersler" Association="Self.FK_tbl_notlar_tbl_dersler">
+            <End Role="tbl_dersler" EntitySet="tbl_dersler" />
+            <End Role="tbl_notlar" EntitySet="tbl_notlar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbl_notlar_tbl_ogrenciler" Association="Self.FK_tbl_notlar_tbl_ogrenciler">
+            <End Role="tbl_ogrenciler" EntitySet="tbl_ogrenciler" />
+            <End Role="tbl_notlar" EntitySet="tbl_notlar" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DbSinavOgrenciModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tbl_dersler">
+          <Key>
+            <PropertyRef Name="DERSID" />
+          </Key>
+          <Property Name="DERSID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DERSAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="tbl_notlar" Relationship="Self.FK_tbl_notlar_tbl_dersler" FromRole="tbl_dersler" ToRole="tbl_notlar" />
+        </EntityType>
+        <EntityType Name="tbl_notlar">
+          <Key>
+            <PropertyRef Name="NOTID" />
+          </Key>
+          <Property Name="NOTID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OGR" Type="Int32" />
+          <Property Name="DERS" Type="Int32" />
+          <Property Name="SINAV1" Type="Int16" />
+          <Property Name="SINAV2" Type="Int16" />
+          <Property Name="SINAV3" Type="Int16" />
+          <Property Name="ORTALAMA" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="DURUM" Type="Boolean" />
+          <NavigationProperty Name="tbl_dersler" Relationship="Self.FK_tbl_notlar_tbl_dersler" FromRole="tbl_notlar" ToRole="tbl_dersler" />
+          <NavigationProperty Name="tbl_ogrenciler" Relationship="Self.FK_tbl_notlar_tbl_ogrenciler" FromRole="tbl_notlar" ToRole="tbl_ogrenciler" />
+        </EntityType>
+        <EntityType Name="tbl_ogrenciler">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SOYAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="FOTOGRAF" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="tbl_notlar" Relationship="Self.FK_tbl_notlar_tbl_ogrenciler" FromRole="tbl_ogrenciler" ToRole="tbl_notlar" />
+        </EntityType>
+        <Association Name="FK_tbl_notlar_tbl_dersler">
+          <End Role="tbl_dersler" Type="Self.tbl_dersler" Multiplicity="0..1" />
+          <End Role="tbl_notlar" Type="Self.tbl_notlar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_dersler">
+              <PropertyRef Name="DERSID" />
+            </Principal>
+            <Dependent Role="tbl_notlar">
+              <PropertyRef Name="DERS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbl_notlar_tbl_ogrenciler">
+          <End Role="tbl_ogrenciler" Type="Self.tbl_ogrenciler" Multiplicity="0..1" />
+          <End Role="tbl_notlar" Type="Self.tbl_notlar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_ogrenciler">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tbl_notlar">
+              <PropertyRef Name="OGR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DbSinavOgrenciEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tbl_dersler" EntityType="Self.tbl_dersler" />
+          <EntitySet Name="tbl_notlar" EntityType="Self.tbl_notlar" />
+          <EntitySet Name="tbl_ogrenciler" EntityType="Self.tbl_ogrenciler" />
+          <AssociationSet Name="FK_tbl_notlar_tbl_dersler" Association="Self.FK_tbl_notlar_tbl_dersler">
+            <End Role="tbl_dersler" EntitySet="tbl_dersler" />
+            <End Role="tbl_notlar" EntitySet="tbl_notlar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbl_notlar_tbl_ogrenciler" Association="Self.FK_tbl_notlar_tbl_ogrenciler">
+            <End Role="tbl_ogrenciler" EntitySet="tbl_ogrenciler" />
+            <End Role="tbl_notlar" EntitySet="tbl_notlar" />
+          </AssociationSet>
+          <EntitySet Name="tbl_kulupler" EntityType="DbSinavOgrenciModel.tbl_kulupler" />
+          <FunctionImport Name="NOTLISTESI" ReturnType="Collection(DbSinavOgrenciModel.NOTLISTESI_Result)" />
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(DbSinavOgrenciModel.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(DbSinavOgrenciModel.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+        </EntityContainer>
+        <EntityType Name="tbl_kulupler">
+          <Key>
+            <PropertyRef Name="KULUPID" />
+          </Key>
+          <Property Name="KULUPID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KULUPAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <ComplexType Name="NOTLISTESI_Result">
+          <Property Type="Int32" Name="NOTID" Nullable="false" />
+          <Property Type="String" Name="AD_SOYAD" Nullable="true" MaxLength="41" />
+          <Property Type="Int16" Name="SINAV1" Nullable="true" />
+          <Property Type="Int16" Name="SINAV2" Nullable="true" />
+          <Property Type="Int16" Name="SINAV3" Nullable="true" />
+          <Property Type="Decimal" Name="ORTALAMA" Nullable="true" Precision="5" Scale="2" />
+          <Property Type="Boolean" Name="DURUM" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DbSinavOgrenciModelStoreContainer" CdmEntityContainer="DbSinavOgrenciEntities">
+          <EntitySetMapping Name="tbl_dersler">
+            <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_dersler">
+              <MappingFragment StoreEntitySet="tbl_dersler">
+                <ScalarProperty Name="DERSID" ColumnName="DERSID" />
+                <ScalarProperty Name="DERSAD" ColumnName="DERSAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_notlar">
+            <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_notlar">
+              <MappingFragment StoreEntitySet="tbl_notlar">
+                <ScalarProperty Name="NOTID" ColumnName="NOTID" />
+                <ScalarProperty Name="OGR" ColumnName="OGR" />
+                <ScalarProperty Name="DERS" ColumnName="DERS" />
+                <ScalarProperty Name="SINAV1" ColumnName="SINAV1" />
+                <ScalarProperty Name="SINAV2" ColumnName="SINAV2" />
+                <ScalarProperty Name="SINAV3" ColumnName="SINAV3" />
+                <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+                <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ogrenciler">
+            <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_ogrenciler">
+              <MappingFragment StoreEntitySet="tbl_ogrenciler">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="AD" ColumnName="AD" />
+                <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+                <ScalarProperty Name="FOTOGRAF" ColumnName="FOTOGRAF" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_kulupler">
+            <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_kulupler">
+              <MappingFragment StoreEntitySet="tbl_kulupler">
+                <ScalarProperty Name="KULUPAD" ColumnName="KULUPAD" />
+                <ScalarProperty Name="KULUPID" ColumnName="KULUPID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="NOTLISTESI" FunctionName="DbSinavOgrenciModel.Store.NOTLISTESI">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DbSinavOgrenciModel.NOTLISTESI_Result">
+                <ScalarProperty Name="NOTID" ColumnName="NOTID" />
+                <ScalarProperty Name="AD_SOYAD" ColumnName="AD SOYAD" />
+                <ScalarProperty Name="SINAV1" ColumnName="SINAV1" />
+                <ScalarProperty Name="SINAV2" ColumnName="SINAV2" />
+                <ScalarProperty Name="SINAV3" ColumnName="SINAV3" />
+                <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+                <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="DbSinavOgrenciModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="DbSinavOgrenciModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="DbSinavOgrenciModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="DbSinavOgrenciModel.Store.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DbSinavOgrenciModel.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="DbSinavOgrenciModel.Store.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DbSinavOgrenciModel.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="DbSinavOgrenciModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="DbSinavOgrenciModel.Store.sp_upgraddiagrams" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,16 @@
+C:\Users\PC\source\repos\pdfopener\pdfopener\bin\Debug\pdfopener.exe.config
+C:\Users\PC\source\repos\pdfopener\pdfopener\bin\Debug\pdfopener.exe
+C:\Users\PC\source\repos\pdfopener\pdfopener\bin\Debug\pdfopener.pdb
+C:\Users\PC\source\repos\pdfopener\pdfopener\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\PC\source\repos\pdfopener\pdfopener\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.csproj.ResolveComReference.cache
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.Form1.resources
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.Properties.Resources.resources
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.exe
+C:\Users\PC\source\repos\pdfopener\pdfopener\obj\Debug\pdfopener.pdb

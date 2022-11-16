@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\BÜFE\bin\Debug\BÜFE.exe.config
+C:\Users\PC\source\repos\BÜFE\bin\Debug\BÜFE.exe
+C:\Users\PC\source\repos\BÜFE\bin\Debug\BÜFE.pdb
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.SU3.resources
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.Properties.Resources.resources
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.exe
+C:\Users\PC\source\repos\BÜFE\obj\Debug\BÜFE.pdb

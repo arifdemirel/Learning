@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbSinavOgrenciModelStoreContainer" CdmEntityContainer="DbSinavOgrenciEntities">
+    <EntitySetMapping Name="tbl_dersler">
+      <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_dersler">
+        <MappingFragment StoreEntitySet="tbl_dersler">
+          <ScalarProperty Name="DERSID" ColumnName="DERSID" />
+          <ScalarProperty Name="DERSAD" ColumnName="DERSAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_notlar">
+      <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_notlar">
+        <MappingFragment StoreEntitySet="tbl_notlar">
+          <ScalarProperty Name="NOTID" ColumnName="NOTID" />
+          <ScalarProperty Name="OGR" ColumnName="OGR" />
+          <ScalarProperty Name="DERS" ColumnName="DERS" />
+          <ScalarProperty Name="SINAV1" ColumnName="SINAV1" />
+          <ScalarProperty Name="SINAV2" ColumnName="SINAV2" />
+          <ScalarProperty Name="SINAV3" ColumnName="SINAV3" />
+          <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ogrenciler">
+      <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_ogrenciler">
+        <MappingFragment StoreEntitySet="tbl_ogrenciler">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="FOTOGRAF" ColumnName="FOTOGRAF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kulupler">
+      <EntityTypeMapping TypeName="DbSinavOgrenciModel.tbl_kulupler">
+        <MappingFragment StoreEntitySet="tbl_kulupler">
+          <ScalarProperty Name="KULUPAD" ColumnName="KULUPAD" />
+          <ScalarProperty Name="KULUPID" ColumnName="KULUPID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="NOTLISTESI" FunctionName="DbSinavOgrenciModel.Store.NOTLISTESI">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DbSinavOgrenciModel.NOTLISTESI_Result">
+          <ScalarProperty Name="NOTID" ColumnName="NOTID" />
+          <ScalarProperty Name="AD_SOYAD" ColumnName="AD SOYAD" />
+          <ScalarProperty Name="SINAV1" ColumnName="SINAV1" />
+          <ScalarProperty Name="SINAV2" ColumnName="SINAV2" />
+          <ScalarProperty Name="SINAV3" ColumnName="SINAV3" />
+          <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="DbSinavOgrenciModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="DbSinavOgrenciModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="DbSinavOgrenciModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="DbSinavOgrenciModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DbSinavOgrenciModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="DbSinavOgrenciModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DbSinavOgrenciModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="DbSinavOgrenciModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="DbSinavOgrenciModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

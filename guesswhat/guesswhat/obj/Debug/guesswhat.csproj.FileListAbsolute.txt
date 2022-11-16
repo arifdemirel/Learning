@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\guesswhat\guesswhat\bin\Debug\guesswhat.exe.config
+C:\Users\PC\source\repos\guesswhat\guesswhat\bin\Debug\guesswhat.exe
+C:\Users\PC\source\repos\guesswhat\guesswhat\bin\Debug\guesswhat.pdb
+C:\Users\PC\source\repos\guesswhat\guesswhat\obj\Debug\guesswhat.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\guesswhat\guesswhat\obj\Debug\guesswhat.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\guesswhat\guesswhat\obj\Debug\guesswhat.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\guesswhat\guesswhat\obj\Debug\guesswhat.exe
+C:\Users\PC\source\repos\guesswhat\guesswhat\obj\Debug\guesswhat.pdb

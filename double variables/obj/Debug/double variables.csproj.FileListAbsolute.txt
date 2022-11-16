@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\double variables\bin\Debug\double variables.exe.config
+C:\Users\PC\source\repos\double variables\bin\Debug\double variables.exe
+C:\Users\PC\source\repos\double variables\bin\Debug\double variables.pdb
+C:\Users\PC\source\repos\double variables\obj\Debug\double variables.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\double variables\obj\Debug\double variables.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\double variables\obj\Debug\double_variables.Form1.resources
+C:\Users\PC\source\repos\double variables\obj\Debug\double_variables.Properties.Resources.resources
+C:\Users\PC\source\repos\double variables\obj\Debug\double variables.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\double variables\obj\Debug\double variables.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\double variables\obj\Debug\double variables.exe
+C:\Users\PC\source\repos\double variables\obj\Debug\double variables.pdb

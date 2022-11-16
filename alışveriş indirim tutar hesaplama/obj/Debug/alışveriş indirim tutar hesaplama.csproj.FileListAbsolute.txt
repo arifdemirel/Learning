@@ -1,0 +1,6 @@
+C:\Users\PC\source\repos\alışveriş indirim tutar hesaplama\obj\Debug\alışveriş indirim tutar hesaplama.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\alışveriş indirim tutar hesaplama\obj\Debug\alışveriş indirim tutar hesaplama.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\alışveriş indirim tutar hesaplama\obj\Debug\alışveriş_indirim_tutar_hesaplama.Form1.resources
+C:\Users\PC\source\repos\alışveriş indirim tutar hesaplama\obj\Debug\alışveriş_indirim_tutar_hesaplama.Properties.Resources.resources
+C:\Users\PC\source\repos\alışveriş indirim tutar hesaplama\obj\Debug\alışveriş indirim tutar hesaplama.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\alışveriş indirim tutar hesaplama\obj\Debug\alışveriş indirim tutar hesaplama.csproj.CoreCompileInputs.cache

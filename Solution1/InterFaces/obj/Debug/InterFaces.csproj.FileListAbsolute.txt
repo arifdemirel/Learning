@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\Solution1\InterFaces\bin\Debug\InterFaces.exe.config
+C:\Users\PC\source\repos\Solution1\InterFaces\bin\Debug\InterFaces.exe
+C:\Users\PC\source\repos\Solution1\InterFaces\bin\Debug\InterFaces.pdb
+C:\Users\PC\source\repos\Solution1\InterFaces\obj\Debug\InterFaces.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Solution1\InterFaces\obj\Debug\InterFaces.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Solution1\InterFaces\obj\Debug\InterFaces.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Solution1\InterFaces\obj\Debug\InterFaces.exe
+C:\Users\PC\source\repos\Solution1\InterFaces\obj\Debug\InterFaces.pdb

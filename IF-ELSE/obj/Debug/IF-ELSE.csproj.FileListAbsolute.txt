@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\IF-ELSE\bin\Debug\IF-ELSE.exe.config
+C:\Users\PC\source\repos\IF-ELSE\bin\Debug\IF-ELSE.exe
+C:\Users\PC\source\repos\IF-ELSE\bin\Debug\IF-ELSE.pdb
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF-ELSE.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF-ELSE.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF_ELSE.Form1.resources
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF_ELSE.Properties.Resources.resources
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF-ELSE.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF-ELSE.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF-ELSE.exe
+C:\Users\PC\source\repos\IF-ELSE\obj\Debug\IF-ELSE.pdb

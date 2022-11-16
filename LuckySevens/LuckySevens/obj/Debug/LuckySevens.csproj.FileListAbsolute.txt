@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\bin\Debug\LuckySevens.exe.config
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\bin\Debug\LuckySevens.exe
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\bin\Debug\LuckySevens.pdb
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\obj\Debug\LuckySevens.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\obj\Debug\LuckySevens.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\obj\Debug\LuckySevens.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\obj\Debug\LuckySevens.exe
+C:\Users\PC\source\repos\LuckySevens\LuckySevens\obj\Debug\LuckySevens.pdb

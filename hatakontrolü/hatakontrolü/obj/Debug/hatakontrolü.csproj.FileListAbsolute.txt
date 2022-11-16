@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\bin\Debug\hatakontrolü.exe.config
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\bin\Debug\hatakontrolü.exe
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\bin\Debug\hatakontrolü.pdb
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.Form1.resources
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.Properties.Resources.resources
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.exe
+C:\Users\PC\source\repos\hatakontrolü\hatakontrolü\obj\Debug\hatakontrolü.pdb

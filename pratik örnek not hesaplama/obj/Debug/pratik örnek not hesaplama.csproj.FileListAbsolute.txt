@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\pratik örnek not hesaplama\bin\Debug\pratik örnek not hesaplama.exe.config
+C:\Users\PC\source\repos\pratik örnek not hesaplama\bin\Debug\pratik örnek not hesaplama.exe
+C:\Users\PC\source\repos\pratik örnek not hesaplama\bin\Debug\pratik örnek not hesaplama.pdb
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik örnek not hesaplama.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik örnek not hesaplama.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik_örnek_not_hesaplama.Form1.resources
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik_örnek_not_hesaplama.Properties.Resources.resources
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik örnek not hesaplama.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik örnek not hesaplama.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik örnek not hesaplama.exe
+C:\Users\PC\source\repos\pratik örnek not hesaplama\obj\Debug\pratik örnek not hesaplama.pdb

@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\bin\Debug\NLayeredAppDemo.exe.config
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\bin\Debug\NLayeredAppDemo.exe
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\bin\Debug\NLayeredAppDemo.pdb
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\obj\Debug\NLayeredAppDemo.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\obj\Debug\NLayeredAppDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\obj\Debug\NLayeredAppDemo.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\obj\Debug\NLayeredAppDemo.exe
+C:\Users\PC\source\repos\NLayeredAppDemo\NLayeredAppDemo\obj\Debug\NLayeredAppDemo.pdb

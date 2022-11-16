@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\bin\Debug\DEĞİŞKENLER CHAR.exe.config
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\bin\Debug\DEĞİŞKENLER CHAR.exe
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\bin\Debug\DEĞİŞKENLER CHAR.pdb
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER CHAR.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER CHAR.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER_CHAR.Form1.resources
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER_CHAR.Properties.Resources.resources
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER CHAR.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER CHAR.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER CHAR.exe
+C:\Users\PC\source\repos\DEĞİŞKENLER CHAR\obj\Debug\DEĞİŞKENLER CHAR.pdb

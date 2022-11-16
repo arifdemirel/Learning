@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch case yapısı.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch case yapısı.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch_case_yapısı.Form1.resources
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch_case_yapısı.Properties.Resources.resources
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch case yapısı.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch case yapısı.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\switch case yapısı\bin\Debug\switch case yapısı.exe.config
+C:\Users\PC\source\repos\switch case yapısı\bin\Debug\switch case yapısı.exe
+C:\Users\PC\source\repos\switch case yapısı\bin\Debug\switch case yapısı.pdb
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch case yapısı.exe
+C:\Users\PC\source\repos\switch case yapısı\obj\Debug\switch case yapısı.pdb

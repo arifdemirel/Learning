@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\integer\bin\Debug\integer.dll
+C:\Users\PC\source\repos\integer\bin\Debug\integer.pdb
+C:\Users\PC\source\repos\integer\obj\Debug\integer.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\integer\obj\Debug\integer.UserControl1.resources
+C:\Users\PC\source\repos\integer\obj\Debug\integer.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\integer\obj\Debug\integer.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\integer\obj\Debug\integer.dll
+C:\Users\PC\source\repos\integer\obj\Debug\integer.pdb

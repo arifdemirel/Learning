@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\Solution1\VirtualMethods\bin\Debug\VirtualMethods.exe.config
+C:\Users\PC\source\repos\Solution1\VirtualMethods\bin\Debug\VirtualMethods.exe
+C:\Users\PC\source\repos\Solution1\VirtualMethods\bin\Debug\VirtualMethods.pdb
+C:\Users\PC\source\repos\Solution1\VirtualMethods\obj\Debug\VirtualMethods.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Solution1\VirtualMethods\obj\Debug\VirtualMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Solution1\VirtualMethods\obj\Debug\VirtualMethods.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Solution1\VirtualMethods\obj\Debug\VirtualMethods.exe
+C:\Users\PC\source\repos\Solution1\VirtualMethods\obj\Debug\VirtualMethods.pdb

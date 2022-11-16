@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\radioboxcheckbox\bin\Debug\radioboxcheckbox.dll
+C:\Users\PC\source\repos\radioboxcheckbox\bin\Debug\radioboxcheckbox.pdb
+C:\Users\PC\source\repos\radioboxcheckbox\obj\Debug\radioboxcheckbox.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\radioboxcheckbox\obj\Debug\radioboxcheckbox.UserControl1.resources
+C:\Users\PC\source\repos\radioboxcheckbox\obj\Debug\radioboxcheckbox.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\radioboxcheckbox\obj\Debug\radioboxcheckbox.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\radioboxcheckbox\obj\Debug\radioboxcheckbox.dll
+C:\Users\PC\source\repos\radioboxcheckbox\obj\Debug\radioboxcheckbox.pdb

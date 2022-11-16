@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.Form1.resources
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.Properties.Resources.resources
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\integer4\bin\Debug\integer4.exe.config
+C:\Users\PC\source\repos\integer4\bin\Debug\integer4.exe
+C:\Users\PC\source\repos\integer4\bin\Debug\integer4.pdb
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.exe
+C:\Users\PC\source\repos\integer4\obj\Debug\integer4.pdb

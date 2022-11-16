@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\kullanıcı giriş paneli\bin\Debug\kullanıcı giriş paneli.exe.config
+C:\Users\PC\source\repos\kullanıcı giriş paneli\bin\Debug\kullanıcı giriş paneli.exe
+C:\Users\PC\source\repos\kullanıcı giriş paneli\bin\Debug\kullanıcı giriş paneli.pdb
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı giriş paneli.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı giriş paneli.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı_giriş_paneli.Form1.resources
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı_giriş_paneli.Properties.Resources.resources
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı giriş paneli.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı giriş paneli.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı giriş paneli.exe
+C:\Users\PC\source\repos\kullanıcı giriş paneli\obj\Debug\kullanıcı giriş paneli.pdb

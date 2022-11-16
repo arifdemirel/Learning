@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.form1.resources
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.ogretmen.resources
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.Properties.Resources.resources
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.kulupler.resources
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\bin\Debug\Bonus_Okul.exe.config
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\bin\Debug\Bonus_Okul.exe
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\bin\Debug\Bonus_Okul.pdb
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.exe
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.pdb
+C:\Users\PC\source\repos\Bonus_Okul\Bonus_Okul\obj\Debug\Bonus_Okul.ogrenci.resources

@@ -1,0 +1,8 @@
+C:\Users\PC\source\repos\Solution1\Strings\bin\Debug\Strings.exe.config
+C:\Users\PC\source\repos\Solution1\Strings\bin\Debug\Strings.exe
+C:\Users\PC\source\repos\Solution1\Strings\bin\Debug\Strings.pdb
+C:\Users\PC\source\repos\Solution1\Strings\obj\Debug\Strings.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Solution1\Strings\obj\Debug\Strings.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Solution1\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Solution1\Strings\obj\Debug\Strings.exe
+C:\Users\PC\source\repos\Solution1\Strings\obj\Debug\Strings.pdb

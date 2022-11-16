@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox-Picturebox-DatetimePicker.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox-Picturebox-DatetimePicker.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox_Picturebox_DatetimePicker.Form1.resources
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox_Picturebox_DatetimePicker.Properties.Resources.resources
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox-Picturebox-DatetimePicker.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox-Picturebox-DatetimePicker.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\bin\Debug\MaskedTextbox-Picturebox-DatetimePicker.exe.config
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\bin\Debug\MaskedTextbox-Picturebox-DatetimePicker.exe
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\bin\Debug\MaskedTextbox-Picturebox-DatetimePicker.pdb
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox-Picturebox-DatetimePicker.exe
+C:\Users\PC\source\repos\MaskedTextbox-Picturebox-DatetimePicker\obj\Debug\MaskedTextbox-Picturebox-DatetimePicker.pdb

@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\Double Değişkenler\bin\Debug\Double Değişkenler.exe.config
+C:\Users\PC\source\repos\Double Değişkenler\bin\Debug\Double Değişkenler.exe
+C:\Users\PC\source\repos\Double Değişkenler\bin\Debug\Double Değişkenler.pdb
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double Değişkenler.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double Değişkenler.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double_Değişkenler.Form1.resources
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double_Değişkenler.Properties.Resources.resources
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double Değişkenler.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double Değişkenler.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double Değişkenler.exe
+C:\Users\PC\source\repos\Double Değişkenler\obj\Debug\Double Değişkenler.pdb

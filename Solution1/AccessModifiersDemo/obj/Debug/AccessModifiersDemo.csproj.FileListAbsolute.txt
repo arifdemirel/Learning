@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\bin\Debug\AccessModifiersDemo.exe.config
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\bin\Debug\AccessModifiersDemo.exe
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\bin\Debug\AccessModifiersDemo.pdb
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\bin\Debug\AccessModifiers.exe
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\bin\Debug\AccessModifiers.pdb
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\bin\Debug\AccessModifiers.exe.config
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.csproj.CopyComplete
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.exe
+C:\Users\PC\source\repos\Solution1\AccessModifiersDemo\obj\Debug\AccessModifiersDemo.pdb

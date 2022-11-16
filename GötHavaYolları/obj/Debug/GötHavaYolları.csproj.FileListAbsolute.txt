@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\GötHavaYolları\bin\Debug\GötHavaYolları.exe.config
+C:\Users\PC\source\repos\GötHavaYolları\bin\Debug\GötHavaYolları.exe
+C:\Users\PC\source\repos\GötHavaYolları\bin\Debug\GötHavaYolları.pdb
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.Form1.resources
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.Properties.Resources.resources
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.exe
+C:\Users\PC\source\repos\GötHavaYolları\obj\Debug\GötHavaYolları.pdb

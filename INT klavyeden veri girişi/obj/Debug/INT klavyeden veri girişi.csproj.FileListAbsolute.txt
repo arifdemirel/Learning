@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\INT klavyeden veri girişi\bin\Debug\INT klavyeden veri girişi.exe.config
+C:\Users\PC\source\repos\INT klavyeden veri girişi\bin\Debug\INT klavyeden veri girişi.exe
+C:\Users\PC\source\repos\INT klavyeden veri girişi\bin\Debug\INT klavyeden veri girişi.pdb
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT klavyeden veri girişi.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT klavyeden veri girişi.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT_klavyeden_veri_girişi.Form1.resources
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT_klavyeden_veri_girişi.Properties.Resources.resources
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT klavyeden veri girişi.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT klavyeden veri girişi.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT klavyeden veri girişi.exe
+C:\Users\PC\source\repos\INT klavyeden veri girişi\obj\Debug\INT klavyeden veri girişi.pdb
